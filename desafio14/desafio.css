@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+body{
+    background-color: bisque;
+}
+header{
+    background-color: rgb(54, 135, 89);
+    height: 200px;
+    font-family: Default Gothic;
+    text-align: center;
+    color: white;
+   margin: -8px;
+   padding: 10px;
+}
+.texto{
+   text-align: justify;
+   padding-right: 20px;
+   line-height: 1.8;
+}
+
+ul{
+    text-align: left;
+    color: rgb(4, 70, 28);
+    font-size: small;
+    list-style: none;
+    padding: 43px;
+    padding-left: 0;
+    margin: 0px;
+    display: flex; flex-wrap: wrap;
+}
+span{
+    color:  darkgreen;
+}
+mark{
+    background-color:#74b59061 ;
+    
+}
+
+.historia{
+    font-family: open sans;
+    color: darkgreen;
+    background-color: rgba(0, 128, 0, 0.427);
+}
+main{
+    background-color: white;
+    padding: 0px 5px 200em 15px;
+    margin: -21px 30px 50px 30px;
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.39);
+  
+}
+a{
+     text-decoration: none;
+     color: darkgreen;
+}
+
+#scape{
+    text-decoration: underline;
+
+}
+#irina{
+   text-decoration: underline;
+   
+}
+#irina:hover{
+    color: aliceblue;
+    display: block;
+    transition: 0.5;
+}
