@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to bottom,#E7F0FA, #7BA4D0);
+}
+
+header{
+   
+   box-shadow: 1px 1px 1px black;
+    background-color: #0D2440;
+    color: white;
+    
+    
+}
+
+
+nav ul{
+    list-style: none;
+   text-align: center;
+   padding: 5px;
+   font-size: 20px;
+  
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.primeiro{
+    width: 200px;
+    height: 200px;
+    background-image: url('img04.jpg');
+    background-size: cover;
+    background-position: center;
+    border: solid black 1px;
+    display: inline-block;
+    margin: auto;
+    border-radius: 5px;
+
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+article{
+    text-align: justify;
+    padding: 50px;
+    margin-top: -30px;
+    line-height: 1.5em;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #2E5E99;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.btn:hover{
+    
+    transform: scale(1.1);
+   
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+footer ul{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.454);
+   
+}
+
+footer li{
+    line-height: 1.9em;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+.redes{
+    padding-left: 50px;
+}
+
+footer{
+    padding: 15px;
+    background-color: #0D2440;
+    color: white;
+    display: flex;
+}
+
