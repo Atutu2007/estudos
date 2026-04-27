@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: rgb(38, 38, 38);
+        }
+
+        .num{
+            text-align: right;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        tbody > tr:nth-child(odd){
+            background-color: lightgray;
+        }
+        thead,tfoot{
+            background-color: rgb(38, 38, 38);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>Populacao de unidades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th style="width: 50px;" scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bengo</td>
+                <td class="num">716 335	</td>
+            </tr>
+            <tr>
+                <td>Benguela</td>
+                <td class="num">2 597 638	</td>
+            </tr>
+            <tr>
+                <td>Bie</td>
+                <td class="num">2 264 874</td>
+            </tr>
+            <tr>
+                <td>Cabinda</td>
+                <td class="num">903 370	</td>
+            </tr>
+            <tr>
+                <td>Cuando</td>
+                <td class="num">138 770		</td>
+            </tr>
+            <tr>
+                <td>Cuanza Norte</td>
+                <td class="num">659 097		</td>
+            </tr>
+            <tr>
+                <td>Cuanza sul</td>
+                <td class="num">2 327 981	</td>
+            </tr>
+            <tr>
+                <td>Cubango</td>
+                <td class="num">570 447		</td>
+            </tr>
+            <tr>
+                <td>Cunene</td>
+                <td class="num">1 806 417		</td>
+            </tr>
+            <tr>
+                <td>Huambo</td>
+                <td class="num">2 691 902	</td>
+            </tr>
+            <tr>
+                <td>Huila</td>
+                <td class="num">3 302 866		</td>
+            </tr>
+            <tr>
+                <td>Icolo e Bengo</td>
+                <td class="num">1 523 457</td>
+            </tr>
+            <tr>
+                <td>Luanda</td>
+                <td class="num">8 665 510</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td class="num"><strong>36 604 681</strong>	</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti, laborum modi ex at rem itaque. Commodi fuga debitis, ad nisi veritatis corporis, ut temporibus laudantium adipisci saepe sapiente dignissimos veniam! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt totam voluptatum laboriosam sit ipsa dolores ullam et! Reprehenderit minus qui quam iure, debitis, ducimus ipsum quibusdam, quas eligendi consequuntur temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam corrupti cupiditate, soluta amet corporis velit vitae nisi unde explicabo ex tempora ut libero quaerat ducimus ipsam eius labore magni natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus enim odit dicta dolor recusandae facilis possimus nulla maiores saepe velit quas quaerat voluptatum culpa perspiciatis laboriosam amet, modi reiciendis nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga iure odio veniam necessitatibus, non, mollitia iste corrupti ullam, harum perferendis voluptates explicabo ea officia earum numquam! Nesciunt animi vitae tempore? Lorem ipsum dolor sit, amet consectetur adipisicing elit. At doloremque facere, fugiat, non modi cumque est voluptatum veniam tempora repellat perferendis nostrum dolor laborum labore nemo! Eveniet, incidunt! Sint, quae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit eveniet non deserunt dolor voluptas, veritatis mollitia nesciunt delectus quaerat impedit aliquid dolores fugit quibusdam repellendus rem autem doloribus sed sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt est rerum eaque saepe, a eius! Explicabo consequatur obcaecati placeat, neque esse iure doloremque ipsa sunt architecto deserunt consectetur reprehenderit quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos at odit similique dicta alias autem, eos illo reprehenderit quasi cum, commodi nobis consequatur ipsum aliquam totam saepe, et laborum? Dolorem! Lorem ipsum dolor sit amet consectetur adipisicing elit. At vel expedita laborum quam officiis magni error consectetur distinctio, hic aliquid veritatis dolores ullam! Suscipit harum nostrum, iste voluptas totam iure.</p>
+</body>
+</html>
