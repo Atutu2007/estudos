@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio de tabela</title>
+    <style>
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+        th,td{
+            padding: 10px;
+            border: 1px solid black;
+        }
+        col.cnome{
+            background-color: aliceblue;
+        }
+        col.csexo{
+            background-color: aqua;
+        }
+        col.cidade{
+            background-color: azure;
+        }
+        col.cprof{
+            background-color: aquamarine;
+            
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="row">Nome</th>
+            <th scope="row">Sexo</th>
+            <th scope="row">Idade</th>
+            <th scope="row">Profissao</th>
+        </tr>
+        <tr>
+            <td>Maria Ana</td>
+            <td>Femenino</td>
+            <td>20</td>
+            <td>Enfermeira</td>
+        </tr>
+          <tr>
+            <td>José Luciano</td>
+            <td>Masculino</td>
+            <td>18</td>
+            <td>Tecnico Informatico</td>
+        </tr>
+          <tr>
+            <td>Francisco Atutu</td>
+            <td>Masculino</td>
+            <td>58</td>
+            <td>Professor</td>
+        </tr>
+          <tr>
+            <td>Isabel Atutu</td>
+            <td>Femenino</td>
+            <td>50</td>
+            <td>Enfermeira</td>
+        </tr>
+        <tr>
+            <td>Helena Atutu</td>
+            <td>Femenino</td>
+            <td>24</td>
+            <td>Enfermeira</td>
+        </tr>
+        <tr>
+            <td>Júlia Atutu</td>
+            <td>Femenino</td>
+            <td>22</td>
+            <td>Contabilista</td>
+        </tr>
+    </table>
+</body>
+</html>
